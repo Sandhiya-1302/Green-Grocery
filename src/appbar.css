@@ -1,0 +1,30 @@
+.spinner-3d-wrapper {
+    perspective: 1200px;
+}
+
+.spinner-3d {
+    animation-name: spinner3d;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+}
+
+@-webkit-keyframes spinner3d {
+    from { -webkit-transform: rotateY(0deg);    }
+    to   { -webkit-transform: rotateY(-360deg); }
+    }
+
+@keyframes spinner3d {
+    from {
+          -moz-transform: rotateY(0deg);
+          -ms-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+    }
+    to {
+          -moz-transform: rotateY(-360deg);
+          -ms-transform: rotateY(-360deg);
+          transform: rotateY(-360deg);
+    }
+}

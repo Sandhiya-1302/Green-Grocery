@@ -1,0 +1,27 @@
+.fruit-menu{
+    position: relative;
+    
+    color: black; 
+    
+    
+}
+
+.fruit-menu::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0px;
+    background-position: center;
+    background-size: cover; 
+    background-image: url('../public/fruit.png');
+    background-attachment: fixed; 
+    opacity: 0.7;
+    
+}
+
+
+
+
+

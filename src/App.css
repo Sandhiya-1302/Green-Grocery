@@ -1,0 +1,38 @@
+
+
+
+.carousel-image {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 90px;
+  
+}
+
+.section{
+  padding-top: 60px;
+  
+  
+}
+
+
+
+.div{
+  margin-bottom: -20px;
+}
+
+.black-bottom-border{
+  border-bottom: 1px solid black;
+}
+
+.navBar{
+  
+  height: 80px;
+  
+}
+
+.fruit-menu, .veg-menu{
+  padding-top: 35px;
+}
+
+
