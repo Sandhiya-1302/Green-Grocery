@@ -1,105 +1,105 @@
 export const fruits = [{
-    name: 'Banana',
-    quantity: 1,
-    price: 40,
-    url: require('../assets/fruits/banana.webp'),
-    alt: 'Banana'
-  }, 
-  
-  {
-    name: 'Blue berry',
-    quantity: 1,
-    price: 120,
-    url: require('../assets/fruits/blueberry.webp'),
-    alt: 'Blue berry'
-  },
+  name: 'Banana',
+  quantity: 1,
+  price: 40,
+  url: require('../assets/fruits/banana.webp'),
+  alt: 'Banana'
+}, 
 
-  {
-    name: 'Fig',
-    quantity: 1,
-    price: 45,
-    url: require('../assets/fruits/fig.webp'),
-    alt: 'Fig'
-  },
+{
+  name: 'Blue berry',
+  quantity: 1,
+  price: 120,
+  url: require('../assets/fruits/blueberry.webp'),
+  alt: 'Blue berry'
+},
 
-  {
-    name: 'Grapes',
-    quantity: 1,
-    price: 68,
-    url: require('../assets/fruits/grapes.webp'),
-    alt: 'Grapes'
-  },
+{
+  name: 'Fig',
+  quantity: 1,
+  price: 45,
+  url: require('../assets/fruits/fig.webp'),
+  alt: 'Fig'
+},
 
-  {
-    name: 'Green Apple',
-    quantity: 1,
-    price: 64,
-    url: require('../assets/fruits/greenapple.webp'),
-    alt: 'Green Apple'
-  },
+{
+  name: 'Grapes',
+  quantity: 1,
+  price: 68,
+  url: require('../assets/fruits/grapes.webp'),
+  alt: 'Grapes'
+},
 
-  {
-    name: 'Jack Fruit',
-    quantity: 1,
-    price: 80,
-    url: require('../assets/fruits/jackfruit.webp'),
-    alt: 'Jack Fruit'
-  },
+{
+  name: 'Green Apple',
+  quantity: 1,
+  price: 64,
+  url: require('../assets/fruits/greenapple.webp'),
+  alt: 'Green Apple'
+},
 
-  {
-    name: 'Kiwi',
-    quantity: 1,
-    price: 40,
-    url: require('../assets/fruits/kiwi.webp'),
-    alt: 'Kiwi'
-  },
+{
+  name: 'Jack Fruit',
+  quantity: 1,
+  price: 80,
+  url: require('../assets/fruits/jackfruit.webp'),
+  alt: 'Jack Fruit'
+},
 
-  {
-    name: 'Mango',
-    quantity: 1,
-    price: 15,
-    url: require('../assets/fruits/mango.webp'),
-    alt: 'Mango'
-  },
+{
+  name: 'Kiwi',
+  quantity: 1,
+  price: 40,
+  url: require('../assets/fruits/kiwi.webp'),
+  alt: 'Kiwi'
+},
 
-  {
-    name: 'Orange',
-    quantity: 1,
-    price: 45,
-    url: require('../assets/fruits/orange.webp'),
-    alt: 'Orange'
-  },
+{
+  name: 'Mango',
+  quantity: 1,
+  price: 15,
+  url: require('../assets/fruits/mango.webp'),
+  alt: 'Mango'
+},
 
-  {
-    name: 'Papaya',
-    quantity: 1,
-    price: 15,
-    url: require('../assets/fruits/papaya.webp'),
-    alt: 'Papaya'
-  },
+{
+  name: 'Orange',
+  quantity: 1,
+  price: 45,
+  url: require('../assets/fruits/orange.webp'),
+  alt: 'Orange'
+},
 
-  {
-    name: 'Pear',
-    quantity: 1,
-    price: 140,
-    url: require('../assets/fruits/pear.webp'),
-    alt: 'Pear'
-  },
+{
+  name: 'Papaya',
+  quantity: 1,
+  price: 15,
+  url: require('../assets/fruits/papaya.webp'),
+  alt: 'Papaya'
+},
 
-  {
-    name: 'Pomegranate',
-    quantity: 1,
-    price: 150,
-    url: require('../assets/fruits/pomegranate.webp'),
-    alt: 'Pomegranate'
-  },
+{
+  name: 'Pear',
+  quantity: 1,
+  price: 140,
+  url: require('../assets/fruits/pear.webp'),
+  alt: 'Pear'
+},
 
-  {
-    name: 'Strawberry',
-    quantity: 1,
-    price: 180,
-    url: require('../assets/fruits/strawberry.webp'),
-    alt: 'Strawberry'
-  }
+{
+  name: 'Pomegranate',
+  quantity: 1,
+  price: 150,
+  url: require('../assets/fruits/pomegranate.webp'),
+  alt: 'Pomegranate'
+},
+
+{
+  name: 'Strawberry',
+  quantity: 1,
+  price: 180,
+  url: require('../assets/fruits/strawberry.webp'),
+  alt: 'Strawberry'
+}
 
 ]

@@ -25,9 +25,9 @@ function AppBar({ cart, handleAddButton, handleRemoveButton, navigateTo }) {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
               <Nav>
-                <Nav.Link href="#home" className='fw-bold' onClick={() => navigateTo(0)} style={{color: 'white'}}>Home</Nav.Link>
-                <Nav.Link href="#category" className='fw-bold' onClick={() => navigateTo(1)} style={{color: 'white'}}>Category</Nav.Link>
-                <Nav.Link href="#contact" className='border rounded bg-body-secondary me-2 ' onClick={() => navigateTo(2)}><span><i class="bi bi-person-square" style={{padding: "8px"}}></i></span></Nav.Link>
+                <Nav.Link href="#home" className='fw-bold' onClick={() => navigateTo("home")} style={{color: 'white'}}>Home</Nav.Link>
+                <Nav.Link href="#category" className='fw-bold' onClick={() => navigateTo("category")} style={{color: 'white'}}>Category</Nav.Link>
+                <Nav.Link href="#contact" className='border rounded bg-body-secondary me-2 ' onClick={() => navigateTo("contact")}><span><i class="bi bi-person-square" style={{padding: "8px"}}></i></span></Nav.Link>
                 <Cart
                     cart={cart}
                     handleAddButton={handleAddButton}

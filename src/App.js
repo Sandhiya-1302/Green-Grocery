@@ -5,13 +5,12 @@ import Category from './components/Category';
 import { fruits } from './components/fruitData';
 import { vegetables } from './components/vegData';
 import Contact from "./components/Contact";
-import Carousel from 'react-bootstrap/Carousel';
 import UserContext from "./components/UserContext";
 
 
 function App() {
     const {cart, setCart} = useContext(UserContext);
-    const [index, setIndex] = useState(0);
+    const [currentPage, setCurrentPage] = useState("home");
 
 
     const handleAddButton = (item) => {
@@ -41,27 +40,33 @@ function App() {
         });
     };
 
-    const handleSelect = (selectedIndex, e) => {
-        setIndex(selectedIndex);
+
+    const handlePageSelect = (page) => {
+        setCurrentPage(page);
     };
 
-    const navigateTo = (selectedIndex) => {
-        setIndex(selectedIndex);
-    };
 
-    console.log(window.outerWidth);
+
+
+    
+
+    
     return (
         <div>
             <AppBar 
                 cart={cart}
                 handleAddButton={handleAddButton}
                 handleRemoveButton={handleRemoveButton}
-                navigateTo={navigateTo} 
+                navigateTo={handlePageSelect}
+                
             />
             <div>
+                {currentPage === "home" &&
                 <div >
                     <Banner />
                 </div>
+                }
+                {currentPage === "category" &&
                 <div>
                     <Category
                         cart={cart}
@@ -71,9 +76,12 @@ function App() {
                         vegetables={vegetables}
                     />
                 </div>
+                }
+                {currentPage === "contact" && 
                 <div>
                     <Contact />
                 </div>
+                }
             </div>
             
         </div>

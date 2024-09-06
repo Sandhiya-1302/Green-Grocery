@@ -1,4 +1,5 @@
-export const vegetables = [{
+export const vegetables = [
+  {
     name: 'Baby Corn',
     quantity: 1,
     price: 40,
